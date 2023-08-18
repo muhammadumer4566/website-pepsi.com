@@ -1,0 +1,404 @@
+body {
+    margin: 0;
+    font-family: "Sofia Pro Black", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    background-color: #0065c3;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    text-transform: uppercase;
+    background-color: #0065c3;
+    padding: 5px;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.item {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.right .item {
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 5px 25px;
+    margin-right: 50px;
+}
+
+.back {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-position: 50%;
+    position: relative;
+    top: -80px;
+}
+
+.back-item img {
+    max-width: 60%;
+    margin: 10% 0% 8% 29%;
+}
+
+.cont-item img {
+    max-width: 60%;
+}
+
+.back-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-item-column {
+    flex-direction: column;
+}
+
+.back-text {
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    margin-right: 36%;
+}
+
+.back-button {
+    color: white;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 5px 65px;
+    margin-right: 50%;
+    margin-left: 10%;
+
+}
+
+.pep {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 114vh;
+    position: relative;
+    top: -80px;
+}
+
+.pep-item img {
+    width: 60vw;
+    position: relative;
+    left: -65px;
+    top: 20px;
+    padding: 20px;
+}
+
+.pop-item img {
+    width: 180%;
+    position: relative;
+    left: -350px;
+    top: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+.conn img {
+    width: 100%;
+    position: relative;
+    top: 40px;
+    margin-left: 80px;
+}
+
+.pip img {
+    position: relative;
+    left: -450px;
+    top: -90px;
+    border: 1px solid white;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.peps {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 114vh;
+}
+
+.peps-item img {
+    width: 70%;
+    position: relative;
+    left: 55px;
+    top: 60px;
+    padding: 20px;
+}
+
+.fact-item {
+    position: relative;
+    left: -210px;
+    top: -60px;
+    display: flex;
+    justify-content: center;
+    height: 56.41vw;
+    width: 81.282vw;
+    max-height: 282px;
+    max-width: 422px;
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/apple-music/apple-music-lockup-i-pad-horizontal-mobile.svg);
+    background-size: auto 100%;
+}
+
+.p-button {
+    display: inline-block;
+    font-size: 1em;
+    height: 1.3em;
+    padding: 0.4em 0.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    top: 80%;
+    left: 110px;
+    margin-right: 70%;
+}
+
+.p-text p {
+    position: relative;
+    top: 340%;
+    font-size: .8rem;
+    width: 81.282vw;
+    max-width: 422px;
+    font-weight: 300;
+    display: block;
+    color: #fff;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+
+.container {
+    height: 110vh;
+    background-color: royalblue;
+    display: flex;
+    position: relative;
+    top: -80px;
+}
+
+.pepsi {
+    width: 30%;
+    height: 100%;
+    background-color: royalblue;
+}
+
+.drink {
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    margin: 20px 12px 0px 65px;
+    position: relative;
+    left: -40px;
+}
+
+.cold {
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    margin: 2px 12px 0px 25px;
+}
+
+.water {
+    width: 70%;
+    height: 98%;
+    background-image: url(pic\ 4.jpeg);
+    background-repeat: no-repeat;
+    background-size: 227%;
+    background-position: 60%;
+    margin-left: 63px;
+}
+
+.content {
+    width: 820px;
+    height: 22%;
+    position: absolute;
+    bottom: 2%;
+    display: flex;
+    justify-content: right;
+    align-content: end;
+}
+
+.abc {
+    width: 380px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -12px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 0px 10px 0px 12px;
+
+}
+
+.img1 {
+    width: 100%;
+    margin: 50px 0px 0px 12px;
+
+}
+
+.img2 {
+    width: 100%;
+    margin: 5px 0px 0px 12px;
+}
+
+.pg {
+    position: relative;
+    top: -80px;
+    height: 100vh;
+}
+
+.pggg-item img {
+    width: 70%;
+    position: relative;
+    top: 197px;
+    left: -1px;
+}
+
+.pgg-item img {
+    position: relative;
+    top: -300px;
+    left: 40px;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+.connect-item img {
+    position: relative;
+    left: 505px;
+    top: -683px;
+    width: 60%;
+}
+
+.pp-txt p {
+    position: relative;
+    left: 130px;
+    bottom: 130px;
+    font-size: 50px;
+    font-family: "Sofia Pro Black", Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-weight: bolder;
+    line-height: 50px;
+
+}
+
+.po-text p {
+    position: relative;
+    top: 60px;
+    right: 270px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+
+}
+
+.ppp-button {
+    display: inline-block;
+    font-size: 1em;
+    height: 1.3em;
+    padding: 0.4em 0.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    top: 240px;
+    right: 730px;
+}
+
+.t2-txt {
+    width: 400%;
+    height: 80%;
+    color: #0065c3;
+    position: relative;
+    left: 170px;
+    bottom: 50px;
+    font-size: 30px;
+    font-family: "Sofia Pro Black", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+footer {
+    background: #005CB4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 50px;
+}
+
+.logobox {
+    width: 15%;
+}
+
+.footlogo {
+    width: 100px;
+
+}
+
+.footlogo:hover {
+    transform: rotate(90deg);
+}
+
+.linksbox {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.links a {
+    color: white;
+    text-decoration: none;
+    margin: 5px 0px;
+    font-weight: bold;
+}
+
+.socialmedia {
+    width: 25%;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+}
+
+.socialmedia i {
+    margin: 0px 5px;
+}
